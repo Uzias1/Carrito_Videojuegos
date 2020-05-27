@@ -29,7 +29,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarHover">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item-2 active">
                         <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -39,9 +39,9 @@
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             VIDEOJUEGOS
                         </a>
-                        <ul class="dropdown-menu bg-dark">
+                        <ul class="dropdown-menu bg-dark" style="font-size: 10px" id="navbarHover">
                             <li><a class="dropdown-item nav-link" href="#">CLASIFICACIÓN<bold>&nbsp;&nbsp;&nbsp;&nbsp;></bold></a>
-                                <ul class="dropdown-menu bg-dark">
+                                <ul class="dropdown-menu bg-dark" style="font-size: 10px" id="navbarHover">
                                     <li><a class="dropdown-item nav-link" href="#">EVERYONE 10+</a></li>
                                     <li><a class="dropdown-item nav-link" href="#">TEE 13+</a></li>
                                     <li><a class="dropdown-item nav-link" href="#">MADURO 17+</a></li>
@@ -49,7 +49,7 @@
                                 </ul>
                             </li>
                             <li><a class="dropdown-item nav-link" href="#">PLATAFORMA<bold>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></bold></a>
-                                <ul class="dropdown-menu bg-dark">
+                                <ul class="dropdown-menu bg-dark" style="font-size: 10px" id="navbarHover">
                                     <li><a class="dropdown-item nav-link" href="#">PS4</a></li>
                                     <li><a class="dropdown-item nav-link" href="#">XBOX ONE</a></li>
                                     <li><a class="dropdown-item nav-link" href="#">NINTENDO SWITCH</a></li>
@@ -59,7 +59,7 @@
                                 </ul>
                             </li>
                             <li><a class="dropdown-item nav-link" href="#">GÉNERO<bold>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></bold></a>
-                                <ul class="dropdown-menu bg-dark">
+                                <ul class="dropdown-menu bg-dark" style="font-size: 10px" id="navbarHover">
                                     <li><a class="dropdown-item nav-link" href="#">PLATAFORMAS</a></li>
                                     <li><a class="dropdown-item nav-link" href="#">MUNDO ABIERTO</a></li>
                                     <li><a class="dropdown-item nav-link" href="#">DISPAROS</a></li>
@@ -83,7 +83,7 @@
                         <li class="nav-item">
                           <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="img/carrito.png" class="hover" style="height: 25px; width: 25px"></a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item-2">
                             <div id="ocultable" style="display: none">
                                 <div class="topnav">
                                     <input class="form-control" type="text" placeholder="Buscar" aria-label="Search" style="background: #0C0C0D; color: #E8E8E8; font-family:'Open Sans', sans-serif; border-color: #E8E8E8">
@@ -97,7 +97,7 @@
                     </ul>
                 </span>
             </div>
-        </nav>     
+        </nav>    
         
         <div id="slides" class="carousel slide" data-ride="carousel">
             <ul class="carousel-indicators">

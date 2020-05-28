@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Home - Games Realm</title>
+        <title>Games Realm | Home</title>
         <link rel="icon" href="img/GRL.jpg" type="image/jpg" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -107,23 +107,47 @@
             </ul>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/Mortal_Kombat11_2.jpg">
+                    <img src="img/index/Mortal_Kombat11_2.jpg">
                     <div class="carousel-caption">
-                        <h1 class="display-2">INDEX</h1>
-                        <h3>Algo que se me ocurra</h3>
-                        <button type="button" class="btn btn-outline-light btn-lg">VER</button>
-                        <button type="button" class="btn btn-primary btn-lg">ALGO</button>
+                        <h1 class="display-2" style="margin-top: 10vw; font-family: 'Impact', sans-serif; color: white">Mortal Kombat 11</h1>
+                        <button type="button" class="btn btn-primary btn-lg">CONSÍGUELO AHORA<bold>&nbsp;&nbsp;&nbsp;&nbsp;></bold></button>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/Call_of_duty.png" alt="">
+                    <img src="img/index/Call_of_duty.png" alt="">
+                    <div class="carousel-caption">
+                        <h1 class="display-2"  style="margin-top: 20vw"></h1>
+                        <button type="button" class="btn btn-primary btn-lg">CONSÍGUELO AHORA<bold>&nbsp;&nbsp;&nbsp;&nbsp;></bold></button>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/overwatch.jpg" alt="">
+                    <img src="img/index/over.png" alt="">
+                    <div class="carousel-caption">
+                        <h1 class="display-2" style="margin-top: 20vw"></h1>
+                        <button type="button" class="btn btn-primary btn-lg">CONSÍGUELO AHORA<bold>&nbsp;&nbsp;&nbsp;&nbsp;></bold></button>
+                    </div>
                 </div>
             </div>
         </div>
+        <br><br>
+        <div class="d">
+            <h4>Nuevos Lanzamientos</h4><br>
+            
+        </div>
+        <br><br>
+        <div class="d">
+            <h4>Empresas Destacadas</h4><br>
+            <a href="https://www.tencent.com/en-us/about.html" style="margin-right: 4.1vw" target="_blank"><img src="img/index/Tencent.jpg" style="width: 10%" class="hover"></a>
+            <a href="https://www.microsoft.com/es-mx" style="margin-right: 4.1vw" target="_blank"><img src="img/index/Microsoft.png" style="width: 10%" class="hover"></a>
+            <a href="https://www.sony.com.mx/" style="margin-right: 4.1vw" target="_blank"><img src="img/index/sony.jpg" style="width: 10%" class="hover"></a>
+            <a href="https://www.ea.com/es-mx" style="margin-right: 4.1vw" target="_blank"><img src="img/index/EA.png" style="width: 10%" class="hover"></a>
+            <a href="https://www.activisionblizzard.com/" style="margin-right: 4.1vw" target="_blank"><img src="img/index/Activision_Blizzard.png" style="width: 10%" class="hover"></a>
+            <a href="https://www.apple.com/mx/" style="margin-right: 4.1vw" target="_blank"><img src="img/index/Apple.jpg" style="width: 8%" class="hover"></a>
+            <a href="https://store.google.com/es/" style="margin-right: 4.1vw" target="_blank"><img src="img/index/Google.jpg" style="width: 10%" class="hover"></a>
+        </div>
+        
         <script src="js/JQuery.js" type="text/javascript"></script>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </body>
 </html>

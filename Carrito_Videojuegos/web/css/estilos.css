@@ -1,0 +1,24 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #E8E8E8;
+  font-size: 14px;
+}
+
+
+.contenedor {
+  font-family: 'Roboto', sans-serif;
+  color: #E8E8E8;
+  font-size: 14px;
+  background-color: rgb(60, 64, 63, 0.5);
+}
+
+.d {
+    margin: 1.5vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}

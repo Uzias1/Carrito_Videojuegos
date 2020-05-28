@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-html, body {
-  height: 100%;
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
-  color: #222;
-}
-
 .carousel-indicators li {
     height: 10px;
     width: 40px;
@@ -47,12 +40,14 @@ html, body {
   /* padding-bottom: 1rem; */
 }
 .btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
+  background-color: #23A6BA;
+  border: 1px solid #23A6BA;
+  font-family: 'Roboto', sans-serif;
 }
 .btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+  background-color: #176D7A;
+  border: 1px solid #176D7A;
+  font-family: 'Roboto', sans-serif;
 }
 .jumbotron {
   padding: 1rem;

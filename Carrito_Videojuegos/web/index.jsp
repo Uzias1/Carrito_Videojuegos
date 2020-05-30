@@ -110,21 +110,33 @@
                     <img src="img/index/Mortal_Kombat11_2.jpg">
                     <div class="carousel-caption">
                         <h1 class="display-2" style="margin-top: 10vw; font-family: 'Impact', sans-serif; color: white">Mortal Kombat 11</h1>
-                        <button type="button" class="btn btn-primary btn-lg">CONSÍGUELO AHORA<bold>&nbsp;&nbsp;&nbsp;&nbsp;></bold></button>
+                        <button type="button" class="btn btn-primary btn-lg">
+                            <a style="text-decoration:none" href="vista_p_u.jsp?nombre=Mortal Kombat 11" class="button">
+                                CONSÍGUELO AHORA<bold>&nbsp;&nbsp;&nbsp;&nbsp;></bold>
+                            </a>
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/index/Call_of_duty.png" alt="">
                     <div class="carousel-caption">
                         <h1 class="display-2"  style="margin-top: 20vw"></h1>
-                        <button type="button" class="btn btn-primary btn-lg">CONSÍGUELO AHORA<bold>&nbsp;&nbsp;&nbsp;&nbsp;></bold></button>
+                        <button type="button" class="btn btn-primary btn-lg">
+                            <a style="text-decoration:none" href="vista_p_u.jsp?nombre=Call of Duty Black Ops III" class="button">
+                                CONSÍGUELO AHORA<bold>&nbsp;&nbsp;&nbsp;&nbsp;></bold>
+                            </a>
+                        </button>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/index/over.png" alt="">
                     <div class="carousel-caption">
                         <h1 class="display-2" style="margin-top: 20vw"></h1>
-                        <button type="button" class="btn btn-primary btn-lg">CONSÍGUELO AHORA<bold>&nbsp;&nbsp;&nbsp;&nbsp;></bold></button>
+                        <button type="button" class="btn btn-primary btn-lg">
+                            <a style="text-decoration:none" href="vista_p_u.jsp?nombre=Overwatch" class="button">
+                                CONSÍGUELO AHORA<bold>&nbsp;&nbsp;&nbsp;&nbsp;></bold>
+                            </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -132,9 +144,61 @@
         <br><br>
         <div class="d">
             <h4>Nuevos Lanzamientos</h4><br>
-            
+            <div class="row">
+                <div class="col clearfix">
+                    <%--BD_Link_Imagen | BD_Link_Nombre | BD_Link_Nombre | BD_Link_Precio--%>
+                    <a style="text-decoration:none" href="vista_p_u.jsp?nombre=Sekiro Shadows Die Twice">
+                        <img class="hover2" src="https://store-images.s-microsoft.com/image/apps.50432.69038865179152125.af885fa8-7b94-47b1-be3a-d2ab6af95a6a.c33c3798-0863-4898-b436-ff5050ffebd1?mode=scale&q=90&h=300&w=200" style="width: 96%">
+                        <br><br><h6>Sekiro Shadows Die Twice</h6> 
+                        <h6 class="opa">MXN $---</h6>
+                    </a>
+                </div>
+                <div class="col clearfix">
+                    <a style="text-decoration:none" href="vista_p_u.jsp?nombre=Destiny 2">
+                        <img class="hover2" src="https://vignette.wikia.nocookie.net/destiny/images/c/c3/Destiny_2.jpg/revision/latest?cb=20170905215729&path-prefix=es" style="width: 102.5%">
+                        <br><br><h6>Destiny 2</h6>
+                        <h6 class="opa">MXN $---</h6>
+                    </a>
+                </div>
+                <div class="col clearfix">
+                    <a style="text-decoration:none" href="vista_p_u.jsp?nombre=Super Mario Odyssey">
+                        <img class="hover2" src="https://images-na.ssl-images-amazon.com/images/I/518mL2i0riL._AC_.jpg" style="width: 89.5%; margin-left: 1.25vw">
+                        <br><br><h6 style="margin-left: 1.25vw">Super Mario Odyssey</h6>
+                        <h6 class="opa" style="margin-left: 1.25vw">MXN $---</h6>
+                    </a>
+                </div>
+                <div class="col clearfix">
+                    <a style="text-decoration:none" href="vista_p_u.jsp?nombre=Ori And The Will Of The Wisps Xbox One Collector’s Edition">
+                        <img class="hover2" src="https://store-images.s-microsoft.com/image/apps.18799.14047496556148589.9fda5cef-7995-4dbb-a626-66d2ab3feb4f.1e167626-8b7d-47b4-9fe5-d06a43ac6677" style="width: 97%"><br>
+                        <br><h6>Ori And The Will Of The Wisps Xbox One Collector’s Edition</h6>
+                        <h6 class="opa">MXN $---</h6>
+                    </a>
+                </div>
+                <div class="col clearfix">
+                    <a style="text-decoration:none" href="vista_p_u.jsp?nombre=DARK SOULS™ II: Scholar of the First Sin">
+                        <img class="hover2" src="https://store-images.s-microsoft.com/image/apps.2435.71415569152440938.6739ca29-cd37-4678-ab4c-9de7eea4d902.ebef4dc5-7000-4381-aeb3-ec706fb63c03?mode=scale&q=90&h=300&w=200" style="width: 97%">
+                        <br><br><h6>DARK SOULS™ II: Scholar of the First Sin</h6>
+                        <h6 class="opa">MXN $---</h6>
+                    </a>
+                </div>
+            </div>
         </div>
         <br><br>
+        
+        <div class="container">
+            <div class="col">
+                <div class="hovereffect">
+                    <img class="blo" src="img/index/historia.jpg">
+                    <a href="https://youtu.be/j1XYbI6JcXI" target="_blank">
+                    <div class="overlay">
+                        <p style="font-size: 5vw; text-align: center; font-family: 'Open Sans', sans-serif; margin-top: 12vw">La Historia de los Videojuegos</p>
+                    </div>
+                    </a>
+                </div>
+            </div>  
+        </div>
+        <br><br>
+        
         <div class="d">
             <h4>Empresas Destacadas</h4><br>
             <a href="https://www.tencent.com/en-us/about.html" style="margin-right: 4.1vw" target="_blank"><img src="img/index/Tencent.jpg" style="width: 10%" class="hover"></a>
